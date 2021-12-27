@@ -1,0 +1,35 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
+}
+.container>div{
+
+	margin: 5px;
+	background-color: pink;
+	padding: 20px;
+}
+.main1{
+	display: grid;
+	grid-template-columns:repeat(auto-fit,minmax(50px,1fr));
+	margin: 10px;
+}
+
+.main2{
+	display: grid;
+	grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+	margin: 10px;
+}
+.main2>div{
+	background-color:skyblue;
+	margin: 5px; 
+	padding: 20px;
+}
+.main1>div{
+	background-color:skyblue;
+	margin: 5px; 
+	padding: 20px;
+}
+
+
+	
